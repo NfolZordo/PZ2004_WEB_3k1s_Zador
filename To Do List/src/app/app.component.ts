@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent { 
     public doList = [];
     public newTask;
-    public checked;
+
     public addToList() {
         if (this.newTask == '') {
         }
@@ -22,7 +22,5 @@ export class AppComponent {
         this.doList.splice(index, 1);
     }
 
-    public done(index) {
-        console.log(this.doList);
-    }
+
 }
