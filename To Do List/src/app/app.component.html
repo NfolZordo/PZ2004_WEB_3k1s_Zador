@@ -1,0 +1,29 @@
+<div class="body">
+    <div class="tytle" style="height:80px">
+        <h1>ToDo List</h1>
+    </div>
+  
+    <div class="" style="height:80px;">
+        <div class="task">
+            <input [(ngModel)]="newTask" type="text" 
+                    value="" class=""
+                        style="width:300px;">
+  
+            <button (click)="addToList()" 
+                class="button">
+                Дадати
+            </button>
+        </div>
+    </div>
+  
+    <div *ngFor="let do of doList; let index = index;" 
+            class="bloc">  
+        <div class="task">
+            <div class="">{{do}}</div>
+            <div class="do_element">
+                <input (click)="deleteTask(index)" type="button"
+                    value="Видалити" class="button">
+            </div>
+        </div> 
+    </div>
+</div>
