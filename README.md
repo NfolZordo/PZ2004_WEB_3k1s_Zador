@@ -4,5 +4,5 @@
  2 Metanit -- виконані завдання першого розділу сайта metanit.com <p>
  3 Website BC -- сайт візитка <p>
  4 To Do List  <p>
- Tic Tac Toe -- в хрестики нолики на typescript <p>
+ Tic Tac Toe -- гра в хрестики нолики на typescript <p>
  
